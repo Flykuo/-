@@ -1,22 +1,9 @@
-package Âå¹È;
+package æ´›è°·;
 
 import java.util.Scanner;
 
-public class Âå¹È1028 {
+public class æ´›è°·1028 {
 
-	public static long flykuo(int n) {
-		if(n==0) {
-			return 0;
-		}
-		if(n==1) {
-			return 1;
-		}
-		if(n%2==0) {
-			return flykuo(n-1)+flykuo(n/2);
-		}else {
-			return flykuo(n-1);
-		}
-	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner (System.in);
@@ -34,5 +21,6 @@ public class Âå¹È1028 {
 			int n=sc.nextInt();
 			System.out.println(arr[n]);
 		}
+		//hhh
 	}
 }
